@@ -44,7 +44,7 @@ public class Checkout_Page {
 	
 	public void verify_the_product_in_the_checkout_Page()
 	{
-		driver.close()
+		
 		driver.findElement(purse).click();
 		driver.findElement(proceed_to_checkout).click();
 		 product_names=driver.findElement(product_name).getText();

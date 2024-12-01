@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 public class OfferPage   {
-	
+	// new comments added to system
 public WebDriver driver;
 public String ProductOnOfferPage;
 	public OfferPage(WebDriver driver) {
